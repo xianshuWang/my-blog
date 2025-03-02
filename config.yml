@@ -1,0 +1,17 @@
+params:
+  homeInfoParams:
+    Title: Hello, 我是王娴姝
+    Content: 这是我记录生活、工作的个人网站
+
+  socialIcons: # optional
+    - name: "<platform>"
+      url: "<link>"
+    - name: "<platform 2>"
+      url: "<link2>"
+
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search

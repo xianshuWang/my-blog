@@ -1,7 +1,7 @@
 +++
-date = '2024-07-14T02:34:14+08:00'
-draft = false
-title = 'Hello World'
+title = "博客搭建总结"
+date = "2024-07-14"
+tags = ["博客搭建", "Hugo"]
 +++
 
 今天是我创建博客的第一天，用了cloudflare+hugo的方案
