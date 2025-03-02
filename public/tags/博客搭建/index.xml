@@ -82,12 +82,28 @@
           &lt;td&gt;git 已安装，但无法在任意文件夹进行 clone&lt;/td&gt;
           &lt;td&gt;在系统环境中配置 git&lt;/td&gt;
       &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;部署时，皮肤主题在系统路径一直错误，导致失败&lt;/td&gt;
+          &lt;td&gt;将之前的皮肤文件删除重新clone，成功后本地尝试是否可以正常使用皮肤&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;部署时，提示hugo版本太低，不支持皮肤&lt;/td&gt;
+          &lt;td&gt;配置一个变量HUGO_VERSION:当前使用HUGO版本号&lt;/td&gt;
+      &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h3 id=&#34;9最终成果&#34;&gt;9.最终成果&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;博客成功上线：&lt;/li&gt;
+&lt;li&gt;博客成功上线：https://xianshu-wang.pages.dev/&lt;/li&gt;
 &lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>博客搭建总结</title>
+      <link>http://localhost:1313/posts/hello-world/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <description>&lt;p&gt;今天是我创建博客的第一天，用了cloudflare+hugo的方案
+尝试一下，希望以后我能总结反思，在这里搭建自己的知识库。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

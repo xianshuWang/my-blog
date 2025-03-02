@@ -1,4 +1,9 @@
-# Charles 安装及破解
++++
+title = "Charles安装激活教程"
+date = "2024-08-01"
+tags = ["软件", "工作"]
++++
+
 ## 下载安装
 - 官方链接：https://www.charlesproxy.com/download/
   
@@ -11,7 +16,8 @@
 
 - 将之前生成的注册名和注册码输入到对应弹窗内
 
-![alt text](image.png)
+![alt text](images/image.png)
+
 
 ## 重启
 - 可以看到已成功激活啦

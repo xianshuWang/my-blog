@@ -1,5 +1,5 @@
 +++
-title = "博客搭建总结"
+title = "My first page：Hello World"
 date = "2024-07-14"
 tags = ["博客搭建", "Hugo"]
 +++
