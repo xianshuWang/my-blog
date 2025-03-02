@@ -1,5 +1,4 @@
 [build]
-  # 指定 Hugo 版本
   command = "hugo"
   publish = "public"
 
