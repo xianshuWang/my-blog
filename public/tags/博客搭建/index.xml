@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My New Site</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on My New Site</description>
+    <title>博客搭建 on My New Site</title>
+    <link>http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</link>
+    <description>Recent content in 博客搭建 on My New Site</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 15 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>博客搭建总结</title>
       <link>http://localhost:1313/posts/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%80%BB%E7%BB%93/</link>
@@ -88,14 +88,6 @@
 &lt;ul&gt;
 &lt;li&gt;博客成功上线：&lt;/li&gt;
 &lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Hello World</title>
-      <link>http://localhost:1313/posts/hello-world/</link>
-      <pubDate>Sun, 14 Jul 2024 02:34:14 +0800</pubDate>
-      <guid>http://localhost:1313/posts/hello-world/</guid>
-      <description>&lt;p&gt;今天是我创建博客的第一天，用了cloudflare+hugo的方案
-尝试一下，希望以后我能总结反思，在这里搭建自己的知识库。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

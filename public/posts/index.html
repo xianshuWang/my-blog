@@ -111,6 +111,20 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">博客搭建总结
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>为什么要搭建博客？ 最近在找资料时看到很多人有一直在坚持写博客，将自己工作和生活中所学到的统统写了下来，让人感慨很多。把这些踩过的坑，学过的路写下来，不仅是自己对所学知识加深印象，也是一种为自己做出总结的好方法。未来自己回头看，也会收获良多吧。以前也注册过公众号，但是由于排版门槛等等，都不了了之，刷推特看了大家的一些推荐，最终决定自己搭建一个网站，希望这次能坚持下去。
+技术选型 博客生成器 选了Hugo，优点是： 静态生成，速度快 文件结构简单，符合程序员思维 生态丰富，有大量主题可选 主题 选了PaperMod，极简风格，适合长期维护 部署平台 选了Cloudflare Pages，全自动部署&#43;免费&#43;全球CDN，体验非常棒 搭建记录 1. 安装工具 Chocolatey安装包管理器 Hugo安装 Git配置环境变量 2. 创建Hugo站点 hugo new site my-blog 3. 选择主题 https://themes.gohugo.io
+4.配置主题 git clone https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod 4.1编辑配置文件hugo.toml theme = &#39;PaperMod&#39; 5.创建文章 hugo new posts/第一篇文章.md 5.1使用VS Code编辑器进行编辑 安装扩展插件：Markdown Preview Enhanced 使用快捷键：Ctrl&#43;Shift&#43;V 进行预览 6.本地预览 hugo server 7.配置Cloudflare Pages 绑定GitHub仓库 选择Hugo构建环境 设置版本和构建命令 自动发布上线 8.遇到的坑 问题 解决方法 PowerShell 禁止运行脚本 Set-ExecutionPolicy RemoteSigned git 已安装，但无法在任意文件夹进行 clone 在系统环境中配置 git 9.最终成果 博客成功上线： </p>
+  </div>
+  <footer class="entry-footer"><span title='2024-07-15 00:00:00 +0000 UTC'>July 15, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to 博客搭建总结" href="http://localhost:1313/posts/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%80%BB%E7%BB%93/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">Hello World
     </h2>
   </header>
@@ -118,7 +132,7 @@
     <p>今天是我创建博客的第一天，用了cloudflare&#43;hugo的方案 尝试一下，希望以后我能总结反思，在这里搭建自己的知识库。
 </p>
   </div>
-  <footer class="entry-footer"><span title='2025-03-02 02:34:14 +0800 CST'>March 2, 2025</span></footer>
+  <footer class="entry-footer"><span title='2024-07-14 02:34:14 +0800 CST'>July 14, 2024</span></footer>
   <a class="entry-link" aria-label="post link to Hello World" href="http://localhost:1313/posts/hello-world/"></a>
 </article>
     </main>
