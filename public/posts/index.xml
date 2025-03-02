@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on My New Site</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on My New Site</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 02 Mar 2025 02:34:14 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>http://localhost:1313/posts/hello-world/</link>
+      <pubDate>Sun, 02 Mar 2025 02:34:14 +0800</pubDate>
+      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <description>&lt;p&gt;今天是我创建博客的第一天，用了cloudflare+hugo的方案
+尝试一下，希望以后我能总结反思，在这里搭建自己的知识库。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
