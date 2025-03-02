@@ -1,0 +1,7 @@
+[build]
+  # 指定 Hugo 版本
+  command = "hugo"
+  publish = "public"
+
+[env]
+  HUGO_VERSION = "0.125.7"
