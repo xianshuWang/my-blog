@@ -1,4 +1,4 @@
-baseURL = 'https://localhost:1313'
+baseURL = 'https://xianshu-wang.pages.dev/'
 languageCode = 'zh-cn'
 title = 'My New Site'
 theme = 'PaperMod'
