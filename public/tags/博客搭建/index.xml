@@ -1,109 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>博客搭建 on Shanwu&#39;s Blog</title>
     <link>http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</link>
     <description>Recent content in 博客搭建 on Shanwu&#39;s Blog</description>
-    <generator>Hugo -- 0.145.0</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 15 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>博客搭建总结</title>
+      <title>hubo &#43; github &#43; cloudflare 搭建个人博客教程</title>
       <link>http://localhost:1313/posts/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%80%BB%E7%BB%93/</link>
       <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%80%BB%E7%BB%93/</guid>
-      <description>&lt;h2 id=&#34;为什么要搭建博客&#34;&gt;为什么要搭建博客？&lt;/h2&gt;
-&lt;p&gt;最近在找资料时看到很多人有一直在坚持写博客，将自己工作和生活中所学到的统统写了下来，让人感慨很多。把这些踩过的坑，学过的路写下来，不仅是自己对所学知识加深印象，也是一种为自己做出总结的好方法。未来自己回头看，也会收获良多吧。以前也注册过公众号，但是由于排版门槛等等，都不了了之，刷推特看了大家的一些推荐，最终决定自己搭建一个网站，希望这次能坚持下去。&lt;/p&gt;
-&lt;h2 id=&#34;技术选型&#34;&gt;技术选型&lt;/h2&gt;
-&lt;h3 id=&#34;博客生成器&#34;&gt;博客生成器&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;选了Hugo，优点是：
-&lt;ul&gt;
-&lt;li&gt;静态生成，速度快&lt;/li&gt;
-&lt;li&gt;文件结构简单，符合程序员思维&lt;/li&gt;
-&lt;li&gt;生态丰富，有大量主题可选&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;主题&#34;&gt;主题&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;选了PaperMod，极简风格，适合长期维护&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;部署平台&#34;&gt;部署平台&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;选了Cloudflare Pages，全自动部署+免费+全球CDN，体验非常棒&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;搭建记录&#34;&gt;搭建记录&lt;/h2&gt;
-&lt;h3 id=&#34;1-安装工具&#34;&gt;1. 安装工具&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Chocolatey安装包管理器&lt;/li&gt;
-&lt;li&gt;Hugo安装&lt;/li&gt;
-&lt;li&gt;Git配置环境变量&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;2-创建hugo站点&#34;&gt;2. 创建Hugo站点&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new site my-blog
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;3-选择主题&#34;&gt;3. 选择主题&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://themes.gohugo.io&#34;&gt;https://themes.gohugo.io&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;4配置主题&#34;&gt;4.配置主题&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;41编辑配置文件hugotoml&#34;&gt;4.1编辑配置文件hugo.toml&lt;/h4&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;theme &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;PaperMod&amp;#39;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;5创建文章&#34;&gt;5.创建文章&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new posts/第一篇文章.md
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;51使用vs-code编辑器进行编辑&#34;&gt;5.1使用VS Code编辑器进行编辑&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;安装扩展插件：Markdown Preview Enhanced&lt;/li&gt;
-&lt;li&gt;使用快捷键：Ctrl+Shift+V 进行预览&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;6本地预览&#34;&gt;6.本地预览&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo server
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;7配置cloudflare-pages&#34;&gt;7.配置Cloudflare Pages&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;绑定GitHub仓库&lt;/li&gt;
-&lt;li&gt;选择Hugo构建环境&lt;/li&gt;
-&lt;li&gt;设置版本和构建命令&lt;/li&gt;
-&lt;li&gt;自动发布上线&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;8遇到的坑&#34;&gt;8.遇到的坑&lt;/h3&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;问题&lt;/th&gt;
-          &lt;th&gt;解决方法&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;PowerShell 禁止运行脚本&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;Set-ExecutionPolicy RemoteSigned&lt;/code&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;git 已安装，但无法在任意文件夹进行 clone&lt;/td&gt;
-          &lt;td&gt;在系统环境中配置 git&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;部署时，皮肤主题在系统路径一直错误，导致失败&lt;/td&gt;
-          &lt;td&gt;将之前的皮肤文件删除重新clone，成功后本地尝试是否可以正常使用皮肤&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;部署时，提示hugo版本太低，不支持皮肤&lt;/td&gt;
-          &lt;td&gt;配置一个变量HUGO_VERSION:当前使用HUGO版本号&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;9最终成果&#34;&gt;9.最终成果&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;博客成功上线：https://xianshu-wang.pages.dev/&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>&lt;h2 id=&#34;为什么要搭建博客&#34;&gt;为什么要搭建博客？&lt;/h2&gt;&#xA;&lt;p&gt;最近在找资料时看到很多人有一直在坚持写博客，将自己工作和生活中所学到的统统写了下来，让人感慨很多。把这些踩过的坑，学过的路写下来，不仅是自己对所学知识加深印象，也是一种为自己做出总结的好方法。未来自己回头看，也会收获良多吧。以前也注册过公众号，但是由于排版门槛等等，都不了了之，刷推特看了大家的一些推荐，最终决定自己搭建一个网站，希望这次能坚持下去。&lt;/p&gt;&#xA;&lt;h2 id=&#34;技术选型&#34;&gt;技术选型&lt;/h2&gt;&#xA;&lt;h3 id=&#34;博客生成器&#34;&gt;博客生成器&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;选了Hugo，优点是：&#xA;&lt;ul&gt;&#xA;&lt;li&gt;静态生成，速度快&lt;/li&gt;&#xA;&lt;li&gt;文件结构简单，符合程序员思维&lt;/li&gt;&#xA;&lt;li&gt;生态丰富，有大量主题可选&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;主题&#34;&gt;主题&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;选了PaperMod，极简风格，适合长期维护&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;部署平台&#34;&gt;部署平台&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;选了Cloudflare Pages，全自动部署+免费+全球CDN，体验非常棒&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;搭建记录&#34;&gt;搭建记录&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-安装工具&#34;&gt;1. 安装工具&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Chocolatey安装包管理器&lt;/li&gt;&#xA;&lt;li&gt;Hugo安装&lt;/li&gt;&#xA;&lt;li&gt;Git配置环境变量&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2-创建hugo站点&#34;&gt;2. 创建Hugo站点&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new site my-blog&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;3-选择主题&#34;&gt;3. 选择主题&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://themes.gohugo.io&#34;&gt;https://themes.gohugo.io&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;4配置主题&#34;&gt;4.配置主题&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;41编辑配置文件hugotoml&#34;&gt;4.1编辑配置文件hugo.toml&lt;/h4&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;theme &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;PaperMod&amp;#39;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;5创建文章&#34;&gt;5.创建文章&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new posts/第一篇文章.md&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;51使用vs-code编辑器进行编辑&#34;&gt;5.1使用VS Code编辑器进行编辑&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;安装扩展插件：Markdown Preview Enhanced&lt;/li&gt;&#xA;&lt;li&gt;使用快捷键：Ctrl+Shift+V 进行预览&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;6本地预览&#34;&gt;6.本地预览&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo server&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;7配置cloudflare-pages&#34;&gt;7.配置Cloudflare Pages&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;绑定GitHub仓库&lt;/li&gt;&#xA;&lt;li&gt;选择Hugo构建环境&lt;/li&gt;&#xA;&lt;li&gt;设置版本和构建命令&lt;/li&gt;&#xA;&lt;li&gt;自动发布上线&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;8遇到的坑&#34;&gt;8.遇到的坑&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;问题&lt;/th&gt;&#xA;          &lt;th&gt;解决方法&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;PowerShell 禁止运行脚本&lt;/td&gt;&#xA;          &lt;td&gt;&lt;code&gt;Set-ExecutionPolicy RemoteSigned&lt;/code&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;git 已安装，但无法在任意文件夹进行 clone&lt;/td&gt;&#xA;          &lt;td&gt;在系统环境中配置 git&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;部署时，皮肤主题在系统路径一直错误，导致失败&lt;/td&gt;&#xA;          &lt;td&gt;将之前的皮肤文件删除重新clone，成功后本地尝试是否可以正常使用皮肤&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;部署时，提示hugo版本太低，不支持皮肤&lt;/td&gt;&#xA;          &lt;td&gt;配置一个变量HUGO_VERSION:当前使用HUGO版本号&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h3 id=&#34;9最终成果&#34;&gt;9.最终成果&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;博客成功上线：https://xianshu-wang.pages.dev/&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>My first page：Hello World</title>
       <link>http://localhost:1313/posts/hello-world/</link>
       <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/hello-world/</guid>
-      <description>&lt;p&gt;今天是我创建博客的第一天，用了cloudflare+hugo的方案
-尝试一下，希望以后我能总结反思，在这里搭建自己的知识库。&lt;/p&gt;</description>
+      <description>&lt;p&gt;今天是我创建博客的第一天，用了cloudflare+hugo的方案&#xA;尝试一下，希望以后我能总结反思，在这里搭建自己的知识库。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
