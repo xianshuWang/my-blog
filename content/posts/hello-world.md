@@ -1,6 +1,6 @@
 +++
-title = "My first page：Hello World"
-date = "2024-04-01"
+title = "My first page：Hello guys"
+date = "2021-04-01"
 tags = ["博客搭建", "Hugo"]
 +++
 
