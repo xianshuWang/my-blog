@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>博客搭建 | Shanwu&#39;s Blog</title>
 <meta name="keywords" content="">
 <meta name="description" content="">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
+<link rel="canonical" href="https://xianshu-wang.pages.dev/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.9de45e225101e4f99701d2b68fc6b8a1ef6027928be6391fa15bf7f56326c909.css" integrity="sha256-neReIlEB5PmXAdK2j8a4oe9gJ5KL5jkfoVv39WMmyQk=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="icon" href="https://xianshu-wang.pages.dev/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://xianshu-wang.pages.dev/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://xianshu-wang.pages.dev/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://xianshu-wang.pages.dev/apple-touch-icon.png">
+<link rel="mask-icon" href="https://xianshu-wang.pages.dev/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/index.xml">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
+<link rel="alternate" type="application/rss+xml" href="https://xianshu-wang.pages.dev/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/index.xml">
+<link rel="alternate" hreflang="en" href="https://xianshu-wang.pages.dev/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
 <noscript>
     <style>
         #theme-toggle,
@@ -56,7 +56,15 @@
         }
 
     </style>
-</noscript>
+</noscript><meta property="og:url" content="https://xianshu-wang.pages.dev/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
+  <meta property="og:site_name" content="Shanwu&#39;s Blog">
+  <meta property="og:title" content="博客搭建">
+  <meta property="og:locale" content="zh-cn">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="博客搭建">
+<meta name="twitter:description" content="">
+
 </head>
 
 <body class="list" id="top">
@@ -74,7 +82,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="Shanwu&#39;s Blog (Alt + H)">Shanwu&#39;s Blog</a>
+            <a href="https://xianshu-wang.pages.dev/" accesskey="h" title="Shanwu&#39;s Blog (Alt + H)">Shanwu&#39;s Blog</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -111,34 +119,37 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">博客搭建总结
+    <h2 class="entry-hint-parent">hubo &#43; github &#43; cloudflare 搭建个人博客教程
     </h2>
   </header>
   <div class="entry-content">
     <p>为什么要搭建博客？ 最近在找资料时看到很多人有一直在坚持写博客，将自己工作和生活中所学到的统统写了下来，让人感慨很多。把这些踩过的坑，学过的路写下来，不仅是自己对所学知识加深印象，也是一种为自己做出总结的好方法。未来自己回头看，也会收获良多吧。以前也注册过公众号，但是由于排版门槛等等，都不了了之，刷推特看了大家的一些推荐，最终决定自己搭建一个网站，希望这次能坚持下去。
-技术选型 博客生成器 选了Hugo，优点是： 静态生成，速度快 文件结构简单，符合程序员思维 生态丰富，有大量主题可选 主题 选了PaperMod，极简风格，适合长期维护 部署平台 选了Cloudflare Pages，全自动部署&#43;免费&#43;全球CDN，体验非常棒 搭建记录 1. 安装工具 Chocolatey安装包管理器 Hugo安装 Git配置环境变量 2. 创建Hugo站点 hugo new site my-blog 3. 选择主题 https://themes.gohugo.io
-4.配置主题 git clone https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod 4.1编辑配置文件hugo.toml theme = &#39;PaperMod&#39; 5.创建文章 hugo new posts/第一篇文章.md 5.1使用VS Code编辑器进行编辑 安装扩展插件：Markdown Preview Enhanced 使用快捷键：Ctrl&#43;Shift&#43;V 进行预览 6.本地预览 hugo server 7.配置Cloudflare Pages 绑定GitHub仓库 选择Hugo构建环境 设置版本和构建命令 自动发布上线 8.遇到的坑 问题 解决方法 PowerShell 禁止运行脚本 Set-ExecutionPolicy RemoteSigned git 已安装，但无法在任意文件夹进行 clone 在系统环境中配置 git 部署时，皮肤主题在系统路径一直错误，导致失败 将之前的皮肤文件删除重新clone，成功后本地尝试是否可以正常使用皮肤 部署时，提示hugo版本太低，不支持皮肤 配置一个变量HUGO_VERSION:当前使用HUGO版本号 9.最终成果 博客成功上线：https://xianshu-wang.pages.dev/ </p>
+技术选型 博客生成器 选了Hugo，优点是： 静态生成，速度快 文件结构简单，符合程序员思维 生态丰富，有大量主题可选 主题 选了PaperMod，极简风格，适合长期维护 部署平台 选了Cloudflare Pages，全自动部署&#43;免费&#43;全球CDN，体验非常棒 搭建记录 1. 安装工具 Chocolatey安装包管理器 1.打开管理员模式Windows PowerShell 2.执行安装choco命令： iwr https://community.chocolatey.org/install.ps1 -UseBasicParsing | iex 3.如果此时遇到&#34;因为在此系统上禁止运行脚本的报错&#34;，执行以下命令，执行后输入Y回车确认即可 1.Windows默认禁止外部脚本运行是为了安全，防止下载到恶意脚本 2.Set-ExecutionPolicy RemoteSigned 的意思是：本地脚本都可执行、且从互联网下载的脚本必须有有效签名
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser 4.如果担心安全，可以在安装完choco后，把策略改回去
+Set-ExecutionPolicy Restricted -Scope CurrentUser 5.安装成功choco后，如果无法判断是否安装成功，可以关闭窗口重新打开Windows PowerShell
+choco -v Hugo安装 1.安装Hugo，切记要使用管理员模式下的Windows PowerShell执行安装命令 choco install hugo Git下载安装及配置环境变量 2. 创建Hugo站点 hugo new site my-blog 3. 选择主题 https://themes.gohugo.io
+4.配置主题 git clone https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod 4.1编辑配置文件hugo.toml theme = &#39;PaperMod&#39; 5.创建文章 hugo new posts/第一篇文章.md 5.1使用VS Code编辑器进行编辑 安装扩展插件：Markdown Preview Enhanced及Markdown All in One 使用快捷键：Ctrl&#43;Shift&#43;V 进行预览 6.本地预览 hugo server 7.配置Cloudflare Pages 绑定GitHub仓库 选择Hugo构建环境 设置版本和构建命令 自动发布上线 8.遇到的坑 问题 解决方法 PowerShell 禁止运行脚本 Set-ExecutionPolicy RemoteSigned git 已安装，但无法在任意文件夹进行 clone 在系统环境中配置 git 部署时，皮肤主题在系统路径一直错误，导致失败 将之前的皮肤文件删除重新clone，成功后本地尝试是否可以正常使用皮肤 部署时，提示hugo版本太低，不支持皮肤 配置一个变量HUGO_VERSION:当前使用HUGO版本号 9.最终成果 博客成功上线：https://xianshu-wang.pages.dev/ </p>
   </div>
   <footer class="entry-footer"><span title='2024-07-15 00:00:00 +0000 UTC'>July 15, 2024</span></footer>
-  <a class="entry-link" aria-label="post link to 博客搭建总结" href="http://localhost:1313/posts/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%80%BB%E7%BB%93/"></a>
+  <a class="entry-link" aria-label="post link to hubo &#43; github &#43; cloudflare 搭建个人博客教程" href="https://xianshu-wang.pages.dev/posts/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%80%BB%E7%BB%93/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">My first page：Hello World
+    <h2 class="entry-hint-parent">My first page：Hello guys
     </h2>
   </header>
   <div class="entry-content">
     <p>今天是我创建博客的第一天，用了cloudflare&#43;hugo的方案 尝试一下，希望以后我能总结反思，在这里搭建自己的知识库。
 </p>
   </div>
-  <footer class="entry-footer"><span title='2024-07-14 00:00:00 +0000 UTC'>July 14, 2024</span></footer>
-  <a class="entry-link" aria-label="post link to My first page：Hello World" href="http://localhost:1313/posts/hello-world/"></a>
+  <footer class="entry-footer"><span title='2021-04-01 00:00:00 +0000 UTC'>April 1, 2021</span></footer>
+  <a class="entry-link" aria-label="post link to My first page：Hello guys" href="https://xianshu-wang.pages.dev/posts/hello-world/"></a>
 </article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">Shanwu&#39;s Blog</a></span> · 
+        <span>&copy; 2025 <a href="https://xianshu-wang.pages.dev/">Shanwu&#39;s Blog</a></span> · 
 
     <span>
         Powered by

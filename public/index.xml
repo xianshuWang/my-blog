@@ -1,40 +1,156 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Shanwu&#39;s Blog</title>
-    <link>http://localhost:1313/</link>
+    <link>https://xianshu-wang.pages.dev/</link>
     <description>Recent content on Shanwu&#39;s Blog</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.145.0</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://xianshu-wang.pages.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Charles安装激活教程</title>
-      <link>http://localhost:1313/posts/%E5%AE%89%E8%A3%85charles/charles%E5%AE%89%E8%A3%85%E7%A0%B4%E8%A7%A3/</link>
+      <title>Charles安装激活教程及手机无法安装证书解决方法</title>
+      <link>https://xianshu-wang.pages.dev/posts/%E5%AE%89%E8%A3%85charles/charles%E5%AE%89%E8%A3%85%E7%A0%B4%E8%A7%A3/</link>
       <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/%E5%AE%89%E8%A3%85charles/charles%E5%AE%89%E8%A3%85%E7%A0%B4%E8%A7%A3/</guid>
-      <description>&lt;h2 id=&#34;下载安装&#34;&gt;下载安装&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;官方链接：https://www.charlesproxy.com/download/&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;破解&#34;&gt;破解&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;打开破解网站：https://www.zzzmode.com/mytools/charles/&lt;/li&gt;&#xA;&lt;li&gt;输入任意字符，生成注册码&lt;/li&gt;&#xA;&lt;li&gt;Hlep-&amp;gt;选择Register Charles&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-02%20193744.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;将之前生成的注册名和注册码输入到对应弹窗内&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;images/image.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;重启&#34;&gt;重启&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;可以看到已成功激活啦&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <guid>https://xianshu-wang.pages.dev/posts/%E5%AE%89%E8%A3%85charles/charles%E5%AE%89%E8%A3%85%E7%A0%B4%E8%A7%A3/</guid>
+      <description>&lt;h2 id=&#34;下载安装&#34;&gt;下载安装&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;官方链接：https://www.charlesproxy.com/download/&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;破解&#34;&gt;破解&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;打开破解网站：https://www.zzzmode.com/mytools/charles/&lt;/li&gt;
+&lt;li&gt;输入任意字符，生成注册码&lt;/li&gt;
+&lt;li&gt;Hlep-&amp;gt;选择Register Charles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt=&#34;alt text&#34; loading=&#34;lazy&#34; src=&#34;images/image2.png&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;将之前生成的注册名和注册码输入到对应弹窗内&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt=&#34;alt text&#34; loading=&#34;lazy&#34; src=&#34;images/image.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;重启&#34;&gt;重启&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;可以看到已成功激活啦&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;手机证书安装&#34;&gt;手机证书安装&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;近期按照charles指示地址，可以安装，但是无法在设置页找到，在网上各种询问解决方法，才发现下载的文件后缀是pro，根本无法识别为描述文件&lt;/li&gt;
+&lt;li&gt;最终发现，由于近期Charles将证书下载地址更换导致。在新网站下载： &lt;a href=&#34;http://ssl.charles&#34;&gt;http://ssl.charles&lt;/a&gt; ，设置页就可以正常显示文件，进行安装和信任证书了&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>hubo &#43; github &#43; cloudflare 搭建个人博客教程</title>
-      <link>http://localhost:1313/posts/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%80%BB%E7%BB%93/</link>
+      <link>https://xianshu-wang.pages.dev/posts/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%80%BB%E7%BB%93/</link>
       <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%80%BB%E7%BB%93/</guid>
-      <description>&lt;h2 id=&#34;为什么要搭建博客&#34;&gt;为什么要搭建博客？&lt;/h2&gt;&#xA;&lt;p&gt;最近在找资料时看到很多人有一直在坚持写博客，将自己工作和生活中所学到的统统写了下来，让人感慨很多。把这些踩过的坑，学过的路写下来，不仅是自己对所学知识加深印象，也是一种为自己做出总结的好方法。未来自己回头看，也会收获良多吧。以前也注册过公众号，但是由于排版门槛等等，都不了了之，刷推特看了大家的一些推荐，最终决定自己搭建一个网站，希望这次能坚持下去。&lt;/p&gt;&#xA;&lt;h2 id=&#34;技术选型&#34;&gt;技术选型&lt;/h2&gt;&#xA;&lt;h3 id=&#34;博客生成器&#34;&gt;博客生成器&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;选了Hugo，优点是：&#xA;&lt;ul&gt;&#xA;&lt;li&gt;静态生成，速度快&lt;/li&gt;&#xA;&lt;li&gt;文件结构简单，符合程序员思维&lt;/li&gt;&#xA;&lt;li&gt;生态丰富，有大量主题可选&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;主题&#34;&gt;主题&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;选了PaperMod，极简风格，适合长期维护&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;部署平台&#34;&gt;部署平台&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;选了Cloudflare Pages，全自动部署+免费+全球CDN，体验非常棒&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;搭建记录&#34;&gt;搭建记录&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-安装工具&#34;&gt;1. 安装工具&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Chocolatey安装包管理器&#xA;1.打开管理员模式Windows PowerShell&#xA;2.执行安装choco命令：&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;iwr https://community.chocolatey.org/install.ps1 -UseBasicParsing | iex&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;3.如果此时遇到&amp;quot;因为在此系统上禁止运行脚本的报错&amp;quot;，执行以下命令，执行后输入Y回车确认即可&#xA;1.Windows默认禁止外部脚本运行是为了安全，防止下载到恶意脚本&#xA;2.Set-ExecutionPolicy RemoteSigned 的意思是：本地脚本都可执行、且从互联网下载的脚本必须有有效签名&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Set-ExecutionPolicy RemoteSigned -Scope CurrentUser&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;4.如果担心安全，可以在安装完choco后，把策略改回去&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Set-ExecutionPolicy Restricted -Scope CurrentUser&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;5.安装成功choco后，如果无法判断是否安装成功，可以关闭窗口重新打开Windows PowerShell&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;choco -v&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;&#xA;&lt;li&gt;Hugo安装&#xA;1.安装Hugo，切记要使用管理员模式下的Windows PowerShell执行安装命令&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;choco install hugo&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;&#xA;&lt;li&gt;Git下载安装及配置环境变量&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2-创建hugo站点&#34;&gt;2. 创建Hugo站点&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new site my-blog&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;3-选择主题&#34;&gt;3. 选择主题&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://themes.gohugo.io&#34;&gt;https://themes.gohugo.io&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;4配置主题&#34;&gt;4.配置主题&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;41编辑配置文件hugotoml&#34;&gt;4.1编辑配置文件hugo.toml&lt;/h4&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;theme &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;PaperMod&amp;#39;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;5创建文章&#34;&gt;5.创建文章&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new posts/第一篇文章.md&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;51使用vs-code编辑器进行编辑&#34;&gt;5.1使用VS Code编辑器进行编辑&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;安装扩展插件：Markdown Preview Enhanced及Markdown All in One&lt;/li&gt;&#xA;&lt;li&gt;使用快捷键：Ctrl+Shift+V 进行预览&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;6本地预览&#34;&gt;6.本地预览&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo server&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;7配置cloudflare-pages&#34;&gt;7.配置Cloudflare Pages&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;绑定GitHub仓库&lt;/li&gt;&#xA;&lt;li&gt;选择Hugo构建环境&lt;/li&gt;&#xA;&lt;li&gt;设置版本和构建命令&lt;/li&gt;&#xA;&lt;li&gt;自动发布上线&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;8遇到的坑&#34;&gt;8.遇到的坑&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;问题&lt;/th&gt;&#xA;          &lt;th&gt;解决方法&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;PowerShell 禁止运行脚本&lt;/td&gt;&#xA;          &lt;td&gt;&lt;code&gt;Set-ExecutionPolicy RemoteSigned&lt;/code&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;git 已安装，但无法在任意文件夹进行 clone&lt;/td&gt;&#xA;          &lt;td&gt;在系统环境中配置 git&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;部署时，皮肤主题在系统路径一直错误，导致失败&lt;/td&gt;&#xA;          &lt;td&gt;将之前的皮肤文件删除重新clone，成功后本地尝试是否可以正常使用皮肤&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;部署时，提示hugo版本太低，不支持皮肤&lt;/td&gt;&#xA;          &lt;td&gt;配置一个变量HUGO_VERSION:当前使用HUGO版本号&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h3 id=&#34;9最终成果&#34;&gt;9.最终成果&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;博客成功上线：https://xianshu-wang.pages.dev/&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <guid>https://xianshu-wang.pages.dev/posts/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%80%BB%E7%BB%93/</guid>
+      <description>&lt;h2 id=&#34;为什么要搭建博客&#34;&gt;为什么要搭建博客？&lt;/h2&gt;
+&lt;p&gt;最近在找资料时看到很多人有一直在坚持写博客，将自己工作和生活中所学到的统统写了下来，让人感慨很多。把这些踩过的坑，学过的路写下来，不仅是自己对所学知识加深印象，也是一种为自己做出总结的好方法。未来自己回头看，也会收获良多吧。以前也注册过公众号，但是由于排版门槛等等，都不了了之，刷推特看了大家的一些推荐，最终决定自己搭建一个网站，希望这次能坚持下去。&lt;/p&gt;
+&lt;h2 id=&#34;技术选型&#34;&gt;技术选型&lt;/h2&gt;
+&lt;h3 id=&#34;博客生成器&#34;&gt;博客生成器&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;选了Hugo，优点是：
+&lt;ul&gt;
+&lt;li&gt;静态生成，速度快&lt;/li&gt;
+&lt;li&gt;文件结构简单，符合程序员思维&lt;/li&gt;
+&lt;li&gt;生态丰富，有大量主题可选&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;主题&#34;&gt;主题&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;选了PaperMod，极简风格，适合长期维护&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;部署平台&#34;&gt;部署平台&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;选了Cloudflare Pages，全自动部署+免费+全球CDN，体验非常棒&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;搭建记录&#34;&gt;搭建记录&lt;/h2&gt;
+&lt;h3 id=&#34;1-安装工具&#34;&gt;1. 安装工具&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Chocolatey安装包管理器
+1.打开管理员模式Windows PowerShell
+2.执行安装choco命令：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;iwr https://community.chocolatey.org/install.ps1 -UseBasicParsing | iex
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;3.如果此时遇到&amp;quot;因为在此系统上禁止运行脚本的报错&amp;quot;，执行以下命令，执行后输入Y回车确认即可
+1.Windows默认禁止外部脚本运行是为了安全，防止下载到恶意脚本
+2.Set-ExecutionPolicy RemoteSigned 的意思是：本地脚本都可执行、且从互联网下载的脚本必须有有效签名&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;4.如果担心安全，可以在安装完choco后，把策略改回去&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Set-ExecutionPolicy Restricted -Scope CurrentUser
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;5.安装成功choco后，如果无法判断是否安装成功，可以关闭窗口重新打开Windows PowerShell&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;choco -v
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Hugo安装
+1.安装Hugo，切记要使用管理员模式下的Windows PowerShell执行安装命令&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;choco install hugo
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;Git下载安装及配置环境变量&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-创建hugo站点&#34;&gt;2. 创建Hugo站点&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new site my-blog
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;3-选择主题&#34;&gt;3. 选择主题&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://themes.gohugo.io&#34;&gt;https://themes.gohugo.io&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;4配置主题&#34;&gt;4.配置主题&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;41编辑配置文件hugotoml&#34;&gt;4.1编辑配置文件hugo.toml&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;theme &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;PaperMod&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;5创建文章&#34;&gt;5.创建文章&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new posts/第一篇文章.md
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;51使用vs-code编辑器进行编辑&#34;&gt;5.1使用VS Code编辑器进行编辑&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;安装扩展插件：Markdown Preview Enhanced及Markdown All in One&lt;/li&gt;
+&lt;li&gt;使用快捷键：Ctrl+Shift+V 进行预览&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;6本地预览&#34;&gt;6.本地预览&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo server
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;7配置cloudflare-pages&#34;&gt;7.配置Cloudflare Pages&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;绑定GitHub仓库&lt;/li&gt;
+&lt;li&gt;选择Hugo构建环境&lt;/li&gt;
+&lt;li&gt;设置版本和构建命令&lt;/li&gt;
+&lt;li&gt;自动发布上线&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;8遇到的坑&#34;&gt;8.遇到的坑&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;问题&lt;/th&gt;
+          &lt;th&gt;解决方法&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;PowerShell 禁止运行脚本&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;Set-ExecutionPolicy RemoteSigned&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;git 已安装，但无法在任意文件夹进行 clone&lt;/td&gt;
+          &lt;td&gt;在系统环境中配置 git&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;部署时，皮肤主题在系统路径一直错误，导致失败&lt;/td&gt;
+          &lt;td&gt;将之前的皮肤文件删除重新clone，成功后本地尝试是否可以正常使用皮肤&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;部署时，提示hugo版本太低，不支持皮肤&lt;/td&gt;
+          &lt;td&gt;配置一个变量HUGO_VERSION:当前使用HUGO版本号&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;9最终成果&#34;&gt;9.最终成果&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;博客成功上线：https://xianshu-wang.pages.dev/&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>My first page：Hello World</title>
-      <link>http://localhost:1313/posts/hello-world/</link>
-      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/hello-world/</guid>
-      <description>&lt;p&gt;今天是我创建博客的第一天，用了cloudflare+hugo的方案&#xA;尝试一下，希望以后我能总结反思，在这里搭建自己的知识库。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Archive</title>
-      <link>http://localhost:1313/archives/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/archives/</guid>
-      <description>archives</description>
+      <title>My first page：Hello guys</title>
+      <link>https://xianshu-wang.pages.dev/posts/hello-world/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://xianshu-wang.pages.dev/posts/hello-world/</guid>
+      <description>&lt;p&gt;今天是我创建博客的第一天，用了cloudflare+hugo的方案
+尝试一下，希望以后我能总结反思，在这里搭建自己的知识库。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
